@@ -9,8 +9,8 @@ module.exports = {
 		await interaction.reply('Pong!');
 
 		//deleting reply
-		await wait(2_000);
-		await interaction.deleteReply();
+		// await wait(2_000);
+		// await interaction.deleteReply();
 
 		//for additional followup
 		// await interaction.followUp('Pong again!');
